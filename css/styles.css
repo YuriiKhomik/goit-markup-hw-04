@@ -252,6 +252,36 @@ img {
     width: 270px;
 }
 
+.benefits .item::before {
+    display: block;
+    content:'';
+    height: 120px;
+    /* outline: 1px solid red; */
+    background-image: url('../images/antenna.png');
+    background-repeat: no-repeat;
+    background-size: 65px 70px;
+    background-position: center;
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 30px;
+}
+
+.icon-antenna::before {
+    background-image: ;
+}
+
+.icon-clock::before {
+    background-image: ;
+}
+
+.icon-computer::before {
+    background-image: ;
+}
+
+.icon-space::before {
+    background-image: ;
+}
+
+
 .benefits .item + .item {
     margin-left: 30px;
 }
