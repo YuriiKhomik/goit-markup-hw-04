@@ -257,7 +257,7 @@ img {
     content:'';
     height: 120px;
     /* outline: 1px solid red; */
-    background-image: url('../images/antenna.png');
+    /* background-image: url('../images/antenna.png'); */
     background-repeat: no-repeat;
     background-size: 65px 70px;
     background-position: center;
@@ -266,20 +266,20 @@ img {
 }
 
 .icon-antenna::before {
-    background-image: ;
+    background-image:url('../images/antenna.png');
+
 }
 
 .icon-clock::before {
-    background-image: ;
+    background-image: url('../images/antenna.png');
 }
 
-.icon-computer::before {
-    background-image: ;
-}
+/* .icon-computer::before {
 
-.icon-space::before {
-    background-image: ;
-}
+} */
+
+/* .icon-space::before {
+} */
 
 
 .benefits .item + .item {
@@ -354,6 +354,22 @@ img {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+}
+
+.clients {
+    display: flex;
+}
+
+.clients .item + .item {
+    margin-left: 30px;
+}
+
+.client-icons {
+    box-sizing: border-box;
+    border: 1px solid #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
 }
 
 /* Стилізація галереї на сторінці Портфоліо */
@@ -514,6 +530,19 @@ img {
 .footer-section {
     padding-top: 60px;
     padding-bottom: 60px;;
+}
+
+.footer-section>.container {
+    display: flex;
+}
+
+.p-footer-social {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
