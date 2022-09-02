@@ -101,4 +101,21 @@ dist
 .dynamodb/
 
 # TernJS port file
+
 .tern-port
+
+.vscode
+
+.idea
+
+.DS_Store
+
+node_modules
+
+.env
+
+build/
+
+*.psd
+
+.prettierrc.json
