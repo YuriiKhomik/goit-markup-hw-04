@@ -344,7 +344,11 @@ img {
     /* outline:1px solid tomato; */
 }
 
-.team-social-container {
+.team-social .item+.item {
+    margin-left: 10px;
+}
+
+/* .team-social-container {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -353,23 +357,29 @@ img {
     height: 44px;
     border-radius: 50%;
     outline: 1px solid tomato;
-}
+} */
 
 .team-social-link {
-   padding: 0;
-   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   color: #AFB1B8;
 }
 
-.team-social .item + .item {
-    margin-left: 10px;
+.team-social-link:hover,
+.team-social-link:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 }
 
 .team-social-icon {
     width: 20px;
     height: 20px;
+    fill: currentColor;
 }
-
-
 
 .clients {
     display: flex;
