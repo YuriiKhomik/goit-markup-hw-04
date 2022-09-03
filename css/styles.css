@@ -253,49 +253,19 @@ img {
 }
 
 .benefits-container {
-    display: block;
+    display: flex;
     justify-content: center;
+    align-items: center;
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--secondary-bg-color);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
-.icon {
+.benefits-icon {
     width: 70px;
     height: 70px;
 }
-
-
-
-/* .benefits .item::before {
-    display: block;
-    content:'';
-    height: 120px;
-    outline: 1px solid red;
-    background-image: url('../images/antenna.png');
-    background-repeat: no-repeat;
-    background-size: 65px 70px;
-    background-position: center;
-    background-color: var(--secondary-bg-color);
-    margin-bottom: 30px;
-}
-
-.icon-antenna::before {
-    background-image:url('../images/antenna.png');
-
-}
-
-.icon-clock::before {
-    background-image: url('../images/antenna.png');
-}
-
-.icon-computer::before {
-}
-
-.icon-space::before {
-} */
-
 
 .benefits .item + .item {
     margin-left: 30px;
@@ -359,17 +329,47 @@ img {
     letter-spacing: 0.03em;
 }
 
-/* .img-team {
-    margin-bottom: 30px;
-}
-
 .p-team {
     text-align: center;
-    
+    margin-bottom: 16px;
+
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
+
+.team-social {
+    display: flex;
+    justify-content: center;
+    /* outline:1px solid tomato; */
+}
+
+.team-social-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    outline: 1px solid tomato;
+}
+
+.team-social-link {
+   padding: 0;
+   border: none;
+}
+
+.team-social .item + .item {
+    margin-left: 10px;
+}
+
+.team-social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+
 
 .clients {
     display: flex;
