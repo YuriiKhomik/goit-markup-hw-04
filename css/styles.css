@@ -252,12 +252,28 @@ img {
     width: 270px;
 }
 
-.benefits .item::before {
+.benefits-container {
+    display: block;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--secondary-bg-color);
+    outline: 1px solid red;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+/* .benefits .item::before {
     display: block;
     content:'';
     height: 120px;
-    /* outline: 1px solid red; */
-    /* background-image: url('../images/antenna.png'); */
+    outline: 1px solid red;
+    background-image: url('../images/antenna.png');
     background-repeat: no-repeat;
     background-size: 65px 70px;
     background-position: center;
@@ -274,11 +290,10 @@ img {
     background-image: url('../images/antenna.png');
 }
 
-/* .icon-computer::before {
+.icon-computer::before {
+}
 
-} */
-
-/* .icon-space::before {
+.icon-space::before {
 } */
 
 
@@ -346,7 +361,7 @@ img {
 
 /* .img-team {
     margin-bottom: 30px;
-} */
+}
 
 .p-team {
     text-align: center;
@@ -544,6 +559,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 
 
 
