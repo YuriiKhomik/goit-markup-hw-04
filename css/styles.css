@@ -155,25 +155,52 @@ img {
     margin-left: auto;
 }
 
+.auth-nav>.item {
+    display: flex;
+}
+
 .auth-nav .item +.item {
     margin-left: 50px;
 }
 
-.auth-nav .contact {
+.contact {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
     padding-top: 7px;
     padding-bottom: 7px;
+    outline: 1px solid red;
 }
 
-.auth-nav .contact:hover,
-.auth-nav .contact:focus {
+.contact:hover,
+.contact:focus {
     color: var(--accent-color);
 }
+
+.contact-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+/* .contact-icon:hover,
+.contact-icon:focus {
+    fill: currentColor
+} */
+/* .mail::before {
+    display: inline-block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: red;
+   background-image: url(../images/icons.svg#icon-envelope); 
+} */
 
 /* герой */
 
@@ -347,17 +374,6 @@ img {
 .team-social .item+.item {
     margin-left: 10px;
 }
-
-/* .team-social-container {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    outline: 1px solid tomato;
-} */
 
 .team-social-link {
    display: flex;
@@ -569,6 +585,16 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+.list-item::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 4px;
+}
+
 
 
 
