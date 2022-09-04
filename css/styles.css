@@ -176,7 +176,6 @@ img {
     flex-direction: row-reverse;
     padding-top: 7px;
     padding-bottom: 7px;
-    outline: 1px solid red;
 }
 
 .contact:hover,
@@ -188,6 +187,8 @@ img {
     margin-right: 10px;
     fill: currentColor;
 }
+
+
 
 /* .contact-icon:hover,
 .contact-icon:focus {
