@@ -404,13 +404,31 @@ img {
     margin-left: 30px;
 }
 
-.client-icons {
+.client-icon-container {
     box-sizing: border-box;
     border: 1px solid #AFB1B8;
     width: 170px;
     height: 92px;
     border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#AFB1B8;
 }
+
+.client-icon-container:hover {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #2196F3;
+}
+
+.client-icon {
+    fill: currentColor;
+}
+
+
 
 /* Стилізація галереї на сторінці Портфоліо */
 
