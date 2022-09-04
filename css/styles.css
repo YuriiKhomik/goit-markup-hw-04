@@ -290,10 +290,10 @@ img {
     /* outline: 1px solid red; */
 }
 
-.benefits-icon {
+/* .benefits-icon {
     width: 70px;
     height: 70px;
-}
+} */
 
 .benefits .item + .item {
     margin-left: 30px;
@@ -393,8 +393,6 @@ img {
 }
 
 .team-social-icon {
-    width: 20px;
-    height: 20px;
     fill: currentColor;
 }
 
