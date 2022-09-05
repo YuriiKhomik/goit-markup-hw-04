@@ -399,38 +399,35 @@ img {
     fill: currentColor;
 }
 
-.clients {
+.client-list {
     display: flex;
+    justify-content: center;
 }
 
-.clients .item + .item {
+.client-list .item+.item {
     margin-left: 30px;
 }
 
-.client-icon-container {
-    box-sizing: border-box;
-    border: 1px solid #AFB1B8;
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 170px;
     height: 92px;
+    border: 1px solid #AFB1B8;
+    color: #AFB1B8;
     border-radius: 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:#AFB1B8;
 }
 
-.client-icon-container:hover {
-    border: 1px solid #2196F3;
-    border-radius: 4px;
-    cursor: pointer;
-    color: #2196F3;
+.client-link:hover,
+.client-link:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .client-icon {
     fill: currentColor;
 }
-
 
 
 /* Стилізація галереї на сторінці Портфоліо */
